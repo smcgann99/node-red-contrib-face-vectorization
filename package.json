@@ -16,7 +16,7 @@
   "license": "Apache 2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/GOOD-I-DEER/node-red-contrib-face-vectorization"
+    "url": "git+https://github.com/GOOD-I-DEER/node-red-contrib-face-vectorization.git"
   },
   "node-red": {
     "nodes": {
