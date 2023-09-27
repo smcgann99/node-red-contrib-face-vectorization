@@ -52,7 +52,7 @@ Image Array
 
 ## property
 
-![image](https://github.com/GOOD-I-DEER/node-red-contrib-face-vectorization/blob/main/img/properites.png)
+![image](https://github.com/GOOD-I-DEER/node-red-contrib-face-vectorization/assets/112360329/004b2539-aaaf-4b77-83fd-c80c02aa79db)
 
 Name
 
@@ -89,7 +89,7 @@ Text File
 ## Examples
 
 Here are some example flows face vectorization.
-![image](https://github.com/GOOD-I-DEER/node-red-contrib-face-vectorization/blob/main/img/example.png)
+![image](https://github.com/GOOD-I-DEER/node-red-contrib-face-vectorization/assets/112360329/99ba056e-e104-417c-ba4c-9a94747d65da)
 
 ### JSON
 
