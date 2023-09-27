@@ -1,7 +1,7 @@
 # @GOOD-I-DEER/node-red-contrib-face-vectorization
 
 [![platform](https://img.shields.io/badge/platform-Node--RED-red)](https://nodered.org)
-[![npm version](https://badge.fury.io/js/@GOOD-I-DEER%2Fnode-red-contrib-face-vectorization.svg)](https://badge.fury.io/js/@GOOD-I-DEER%2Fnode-red-contrib-face-vectorization)
+[![npm version](https://badge.fury.io/js/@good-i-deer%2Fnode-red-contrib-face-vectorization.svg)](https://badge.fury.io/js/@good-i-deer%2Fnode-red-contrib-face-vectorization)
 [![GitHub license](https://img.shields.io/github/license/GOOD-I-DEER/node-red-contrib-face-vectorization)](https://github.com/GOOD-I-DEER/node-red-contrib-face-vectorization/blob/main/LICENSE)
 
 This module provides a node that vectorizes facial photos using AI in Node-RED.
