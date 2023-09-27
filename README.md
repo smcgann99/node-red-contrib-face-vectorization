@@ -203,7 +203,7 @@ Use [GitHub Issues](https://github.com/GOOD-I-DEER/node-red-contrib-face-vectori
 - [Kim Jaea](https://github.com/kimjaea)
 - [Yi Jong Min](https://github.com/chickennight)
 - [Lee Deok Yong](https://github.com/Gitgloo)
-- [Lee Chae Rim](https://github.com/leecr1215)
+- [Lee Che Lim](https://github.com/leecr1215)
 - [Lee Hyo Sik](https://github.com/hy06ix)
 - [Jung Gyu Sung](https://github.com/ramaking)
 <hr>
