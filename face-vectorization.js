@@ -9,8 +9,7 @@ module.exports = function (RED) {
     const node = this;
 
     const currentDir = __dirname;
-    const parentDir = path.join(currentDir, "..");
-    const modelPath = path.join(parentDir, "model", "facenet-model.onnx");
+    const modelPath = path.join(currentDir, "model", "facenet-model.onnx");
 
     node.on("input", async function (msg) {
       const inputData = msg.payload;
