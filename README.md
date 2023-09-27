@@ -43,7 +43,7 @@ Image Array
 
 
 ## property
-
+![image](https://github.com/GOOD-I-DEER/node-red-contrib-face-vectorization/blob/main/img/properites.png)
 
 Name  
 
