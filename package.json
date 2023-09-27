@@ -9,7 +9,7 @@
     "Vector",
     "FaceNet"
   ],
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GOOD-I-DEER/node-red-contrib-face-vectorization.git"
@@ -26,5 +26,13 @@
     "path": "^0.12.7",
     "sharp": "^0.32.6"
   },
-  "private": false
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/GOOD-I-DEER/node-red-contrib-face-vectorization/issues"
+  },
+  "homepage": "https://github.com/GOOD-I-DEER/node-red-contrib-face-vectorization#readme",
+  "main": "face-vectorization.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
