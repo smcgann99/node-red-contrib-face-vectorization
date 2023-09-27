@@ -32,7 +32,7 @@ The Node-Red-Contrib-Face-Vectorization requires [Node-RED](https://nodered.org)
 
 ```
 cd ~/.node-red
-npm install @GOOD-I-DEER/node-red-contrib-face-vectorization
+npm install @good-i-deer/node-red-contrib-face-vectorization
 ```
 
 Restart your Node-RED instance
