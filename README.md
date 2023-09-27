@@ -14,7 +14,7 @@ These nodes require node.js version 18.16.1 and Node-RED version 3.1.0.
 
 This node is part of the Facial Recognition with AI package.  
 If you would like to see the entire package, please go to the link.
-[@good-i-deer/node-red-contrib-vision-ai](https://badge.fury.io/js/@good-i-deer/node-red-contrib-vision-ai)
+[@good-i-deer/node-red-contrib-vision-ai](https://www.npmjs.com/package/@good-i-deer/node-red-contrib-vision-ai)
 
 The **AI** used in this node uses the **Inception ResNet v1** architecture, an implementation of the **FaceNet** model in Pytorch, and is trained on the **VGGFace2** dataset.  
 It converts the pre-trained model into **onnx** format and operates through the **onnx-runtime** module. Files are provided directly to reduce dependency on external APIs.  
