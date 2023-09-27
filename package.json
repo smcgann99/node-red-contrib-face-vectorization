@@ -3,11 +3,7 @@
   "version": "1.0.0",
   "description": "Face Image Vectorization Node for Node-RED",
   "keywords": [
-    "SmartThings",
-    "Bixby",
     "node-red",
-    "Samsung Automation Studio",
-    "AWS",
     "Face",
     "Vectorization",
     "Vector",
@@ -16,7 +12,7 @@
   "license": "Apache 2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/GOOD-I-DEER/node-red-contrib-face-vectorization.git"
+    "url": "git+https://github.com/GOOD-I-DEER/node-red-contrib-face-vectorization.git"
   },
   "author": "GOOD-I-DEER",
   "node-red": {
