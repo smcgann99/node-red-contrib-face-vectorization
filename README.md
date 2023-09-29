@@ -98,7 +98,7 @@ Here are some example flows face vectorization.
     {
         "id": "e64532d90f9d901d",
         "type": "tab",
-        "label": "플로우 3",
+        "label": "Example",
         "disabled": false,
         "info": "",
         "env": []
