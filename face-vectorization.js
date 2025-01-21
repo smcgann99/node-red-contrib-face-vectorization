@@ -6,13 +6,22 @@ module.exports = function (RED) {
 
   function FaceVectorizationNode(config) {
     RED.nodes.createNode(this, config);
+    this.data       = config.data || "";
+    this.dataType   = config.dataType || "msg";
     const node = this;
-
+    let inputData
     const currentDir = __dirname;
     const modelPath = path.join(currentDir, "model", "facenet-model.onnx");
 
     node.on("input", async function (msg) {
-      const inputData = msg.payload;
+      RED.util.evaluateNodeProperty(node.data, node.dataType, node, msg, (err, value) => {
+        if (err) {
+            handleError(err, msg, "Invalid source");
+            return;
+        } else {
+          inputData = value;
+        }
+    });
 
       try {
         const vectors = [];

@@ -4,6 +4,12 @@
     color: "#1AE5BE",
     defaults: {
       name: { value: "" },
+      data: {
+                value: "payload",
+                required: true,
+                validate: RED.validators.typedInput("dataType")
+            },
+            dataType: { value: "msg" },
       inputType: {
         value: "0",
         validate: function (v) {
@@ -44,6 +50,15 @@
     },
     inputLabels: ["Single Face Image"],
     outputLabels: ["Face Vector Array"],
+    
+        oneditprepare: function () {
+        $('#node-input-data').typedInput({
+                default: 'msg',
+                typeField: $("#node-input-dataType"),
+                types: ['msg']
+            });
+        }
+    
   });
 </script>
 
@@ -52,6 +67,11 @@
     <label for="node-input-name"><i class="fa fa-tag"></i> Name </label>
     <input type="text" id="node-input-name" placeholder="Name" />
   </div>
+  <div class="form-row">
+    <label style="padding-top: 8px" for="node-input-data"><i class="fa fa-ellipsis-h"></i> Property</label>
+    <input type="text" id="node-input-data" style="width:70%">
+    <input type="hidden" id="node-input-dataType">
+</div>
   <div class="form-row">
     <label for="node-input-inputType"
       ><i class="fa fa-file"></i> Input Type
