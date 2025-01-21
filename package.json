@@ -21,11 +21,11 @@
     }
   },
   "dependencies": {
-    "axios": "^0.24.0",
+    "axios": "^0.29.0",
     "fs": "^0.0.1-security",
-    "onnxruntime-node": "^1.16.0",
+    "onnxruntime-node": "^1.20.1",
     "path": "^0.12.7",
-    "sharp": "^0.32.6"
+    "sharp": "^0.33.5"
   },
   "private": false,
   "bugs": {
